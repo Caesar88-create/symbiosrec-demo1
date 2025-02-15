@@ -234,6 +234,7 @@ img {
     margin-top: 24px;
     margin-bottom: 24px;
     padding: 5px;
+    cursor: pointer;
 }
 
 .sm-icons:hover {
