@@ -1,0 +1,248 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    background-color: #000;
+}
+
+img {
+    max-width: 100%; 
+    height: auto;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.container {
+    max-width: 0 auto;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.btn-language-switch {
+    background-color: #000;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+    min-width: auto;
+    height: auto;
+    border: 0;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 0 auto;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.btn-language-switch:hover {
+    background-color: #ff0000;
+    text-decoration: underline;
+}
+
+.btn-language-switch:focus {
+    background-color: #ff0000;
+    text-decoration: underline;
+}
+
+.header-menu-list-first {
+    display: block;
+    align-items: center;
+}
+
+.header-contacts {
+    font-style: normal;
+    margin-left: auto;
+}
+
+.header-contacts-list {
+    display: column;
+    align-items: center;
+    gap: 40px;
+}
+  
+.header-contacts-link {
+    background-color: #000;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+    min-width: auto;
+    height: auto;
+    border: 0;
+    border-radius: 4px;
+    margin: 0 auto;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    display: inline-flex;
+    margin-bottom: 24px;
+}
+  
+.header-contacts-link:hover {
+    color: #fff;
+    background-color: #f00;
+    text-decoration: underline;
+}
+  
+.header-contacts-link:focus {
+    color: #fff;
+    background-color: #f00;
+    text-decoration: underline;
+}
+
+.email {
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+  
+.phone {
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+  
+.logo {
+    background-color: #2e2f42;
+}
+
+.hero {
+    max-width: 0 auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto;
+}
+
+.video-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1;
+}
+
+/* .video-background video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+} */
+
+.header-menu-list-one {
+    background-color: #000;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+    min-width: auto;
+    height: auto;
+    border: 0;
+    border-radius: 4px;
+    margin: 0 auto;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    display: inline-flex;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    margin-inline: 75px;
+}
+
+.header-menu-list-one:hover {
+    background-color: #ff0000;
+    text-decoration: underline;
+}
+
+.header-menu-list-one:focus {
+    background-color: #ff0000;
+    text-decoration: underline;
+}
+
+.header-menu-list-two {
+    background-color: #000;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+    min-width: auto;
+    height: auto;
+    border: 0;
+    border-radius: 4px;
+    margin: 0 auto;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    display: inline-flex;
+    margin-inline: 18px;
+    margin-bottom: 24px;
+}
+
+.header-menu-list-two:hover {
+    background-color: #ff0000;
+    text-decoration: underline;
+}
+
+.header-menu-list-two:focus {
+    background-color: #ff0000;
+    text-decoration: underline;
+}
+
+.sm-list {
+    display: inline-flex;
+}
+
+.sm-icons {
+    border-radius: 4px;
+    background-color: #ff0000;
+    fill: #fff;
+    width: 48px;
+    height: 48px;
+    justify-content: center;
+    align-items: center;    
+    margin-inline: 6px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    padding: 5px;
+}
+
+.sm-icons:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+.sm-icons:focus {
+    background-color: #000;
+    color: #fff;
+}

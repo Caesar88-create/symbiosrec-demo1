@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Symbiosrecords</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+
+  <body>
+    <header>
+      <!-- Language switch -->
+      <div class="language-switcher section">
+        <button class="btn-language-switch" onclick="switchLanguage('uk')">
+          ua
+        </button>
+        <button class="btn-language-switch" onclick="switchLanguage('en')">
+          en
+        </button>
+      </div>
+
+      <ul class="sm-list">
+        <li>
+          <svg class="sm-icons" width="16" height="16">
+            <use href="./images/icons.svg/#icon-instagram"></use>
+          </svg>
+        </li>
+        <li>
+          <svg class="sm-icons" width="16" height="16">
+            <use href="./images/icons.svg/#icon-tiktok"></use>
+          </svg>
+        </li>
+        <li>
+          <svg class="sm-icons" width="16" height="16">
+            <use href="./images/icons.svg/#icon-x"></use>
+          </svg>
+        </li>
+        <li>
+          <svg class="sm-icons" width="16" height="16">
+            <use href="./images/icons.svg/#icon-youtube"></use>
+          </svg>
+        </li>
+      </ul>
+
+      <!-- Address -->
+      <address class="header-contacts">
+        <ul class="header-contacts-list">
+          <li class="header-contacts-item">
+            <a class="header-contacts-link" href="mailto:symbiosrec@gmail.com"
+              >symbiosrec@gmail.com</a
+            >
+          </li>
+          <li class="header-contacts-item">
+            <a class="header-contacts-link" href="tel:+380737704991"
+              >+38 (073) 770-49-91</a
+            >
+          </li>
+        </ul>
+      </address>
+    </header>
+
+    <main>
+
+      <!-- Menu container -->
+      <section class="header-menu-list container">
+        <div class="header-menu-list-first">
+          <nav>
+            <ul class="header-menu-list-one" href="">
+              ПАРТНЕРСТВО
+            </ul>
+            <ul class="header-menu-list-one" href="">
+              ГЕОЛОКАЦІЯ
+            </ul>
+            <ul class="header-menu-list-one" href="">
+              ПРАВИЛА
+            </ul>
+            <ul class="header-menu-list-one" href="">
+              ПРАЙС
+            </ul>
+          </nav>
+        </div>
+
+        <div>
+          <nav class="header-menu-list-second">
+            <ul class="header-menu-list-two" href="">
+              АППАРАТУРА
+            </ul>
+            <ul class="header-menu-list-two" href="">
+              ПРОДАКШН
+            </ul>
+            <ul class="header-menu-list-two" href="">
+              АРТИСТИ
+            </ul>
+            <ul class="header-menu-list-two" href="">
+              НОВИНИ
+            </ul>
+            <ul class="header-menu-list-two" href="">
+              СТУДІЯ
+            </ul>
+            <ul class="header-menu-list-two" href="">
+              ХРОНІКИ СТУДІЇ
+            </ul>
+            <ul class="header-menu-list-two" href="">
+              ВІДГУКИ
+            </ul>
+            <ul class="header-menu-list-two" href="">
+              ДРУЗІ, КОЛЕГИ
+            </ul>
+          </nav>
+        </div>
+      </section>
+
+      <!-- Background section -->
+      <section class="hero"     
+               class="video-background">
+          <video autoplay loop muted playsinline>
+              <source src="./images/background(1).mp4" type="video/mp4">
+          </video>
+      </section>
+
+      <!-- Logo container-->
+      <!-- <section class="logo section">
+        <a href="index.html">
+          <img
+            class=""
+            scr="./images/logo.jpg"
+            width="465"
+            height="460"
+            alt="logo(2)"
+          />
+        </a>
+      </section> -->
+      
+    </main>
+
+    <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>
+  </body>
+</html>
